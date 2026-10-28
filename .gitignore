@@ -1,0 +1,20 @@
+# Maven build output
+target/
+
+# Shade plugin generates this from pom.xml; committing it causes confusion
+# because it looks like a second, stale pom.
+dependency-reduced-pom.xml
+
+# Local generator output (the generator scripts are not part of this repo).
+generated/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# OS
+Thumbs.db
+.DS_Store

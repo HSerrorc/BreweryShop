@@ -1,0 +1,56 @@
+# 物品价格配置
+# 格式: 配方ID-品质: 价格
+
+# 是否输出出售计算的调试日志
+debug: false
+
+prices:
+  wheat_beer-1: 20
+  wheat_beer-2: 20
+  wheat_beer-4: 35
+  wheat_beer-5: 50
+  wheat_beer-6: 50
+  wheat_beer-8: 75
+  wheat_beer-10: 100
+  berry_wine-1: 30
+  berry_wine-2: 30
+  berry_wine-4: 50
+  berry_wine-5: 75
+  berry_wine-6: 75
+  berry_wine-8: 110
+  berry_wine-10: 150
+  golden_rum-1: 60
+  golden_rum-2: 60
+  golden_rum-4: 95
+  golden_rum-5: 140
+  golden_rum-6: 140
+  golden_rum-8: 200
+  golden_rum-10: 280
+  grape_wine-1: 30
+  grape_wine-5: 70
+  grape_wine-10: 140
+  hop_beer-1: 25
+  hop_beer-5: 60
+  hop_beer-10: 120
+  apple_cider-1: 30
+  apple_cider-5: 75
+  apple_cider-10: 150
+  pineapple_wine-1: 35
+  pineapple_wine-5: 85
+  pineapple_wine-10: 170
+  pitaya_wine-1: 40
+  pitaya_wine-5: 95
+  pitaya_wine-10: 190
+
+# GUI 布局配置
+# = 边框 (灰色玻璃板)
+# 空格 = 可放置酒品
+# S = 出售按钮 (绿色玻璃板)
+gui:
+  title: "酒类出售"
+  layout:
+    - "========="
+    - "=       ="
+    - "=       ="
+    - "=       ="
+    - "====S===="

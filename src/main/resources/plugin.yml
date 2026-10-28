@@ -1,0 +1,12 @@
+name: BreweryShop
+version: 1.0.0
+main: com.hserrorc.breweryshop.BreweryShop
+api-version: '1.21'
+author: HSerrorc
+description: 酒类出售插件
+depend: [Vault, BreweryX]
+
+commands:
+  sellbrew:
+    description: 打开酒类出售GUI
+    usage: /sellbrew
